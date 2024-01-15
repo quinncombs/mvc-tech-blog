@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    color: darkgreen
+}
+
+a {
+
+}
+
+a.hover {
+
+}
+
+button {
+
+}
+
+.card {
+    background-color: rgb(169, 207, 147);
+    margin: 5px;
+}
