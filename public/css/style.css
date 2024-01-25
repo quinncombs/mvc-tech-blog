@@ -8,15 +8,15 @@ body {
 }
 
 a {
-
+    font-weight: bold;
 }
 
 a.hover {
-
+    color: lightcoral;
 }
 
 button {
-
+    font-weight: bold;
 }
 
 .card {

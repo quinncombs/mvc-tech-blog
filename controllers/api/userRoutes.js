@@ -3,7 +3,7 @@ const { User, Post, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // api/users
-router.get('/', req, res => {
+router.get('/', (req, res) => {
     User.findAll({
         attributes: { exclude: ['password' ]}
     })
